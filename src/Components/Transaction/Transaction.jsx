@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import Info from '../Info/Info'
 import Button from '../Button/Button'
+import Progressbar from '../Progressbar/Progressbar'
 export default function Transaction () {
   return (
     <div className='transaction'>
@@ -50,9 +51,8 @@ export default function Transaction () {
             <div className='conversion-amount'>
               <p>$ 0</p>
             </div>
-            <progress id='amount' max='100' value='70'>
-              70%
-            </progress>
+            {/* <Progressbar value={25}/> */}
+            <progress id='amount' max={100} value={0} />
           </div>
         </div>
         <div className='container-3'>

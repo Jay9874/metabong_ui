@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .hero-text-cont{
@@ -60,4 +61,68 @@
 /* Transactions Animation CSS */
 .transaction-animation{
     padding-top: 4.5rem;
+}
+
+.animation-overlay{
+    position: absolute;
+    top: calc(2rem + 70px);
+    height: calc(100vh - 2rem - 70px);
+    width: 100%;
+    background: transparent;
+}
+.main-asset-cont{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    left: calc(50vw - 200px);
+    border-radius: 100px 100px 0 0;
+}
+
+.asset-logo-cont{
+    position: absolute;
+    bottom: 5px;
+    left: calc(200px - 70px);
+    transition: all 1s ease-in-out;
+}
+
+.asset1{
+    position: absolute;
+}
+.asset1.active{
+    transform: translate(-200px, -170px);
+}
+.asset2{
+    position: absolute;
+    left: 40px;
+}
+.asset2.active{
+    transform: translate(-120px, -100px);
+}
+.asset3{
+    position: absolute;
+    right: 0;
+}
+
+.asset3.active{
+    transform: translate(120px, -100px);
+}
+.asset4{
+    position: absolute;
+    right: 40px;
+}
+
+.asset1, .asset2, .asset3, .asset4{
+    transition: all 1s ease-in-out;
+}
+.asset4.active{
+    transform: translate(200px, -170px);
+}
+
+.asset-logo-cont.active{
+    transform: translateX(200px);
+}
+.transactions-assets-cont.active{
+    display: none;
 }

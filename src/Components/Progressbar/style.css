@@ -1,0 +1,35 @@
+.progress-cont{
+    position: relative;
+    height: 5px;
+    width: 100%;
+}
+.real-progress{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.sudo-progress{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.percent-dots div{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    border-radius: 2.5px;
+    background-color: #fff;
+}
+
+.percent-dots div:nth-child(2){
+    left: 25%;
+}
+.percent-dots div:nth-child(3){
+    left: 75%;
+}
+.percent-dots div:nth-child(4){
+    left: 100%;
+}
