@@ -1,0 +1,63 @@
+.hero{
+    padding-top: calc(2rem + 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text-cont{
+    padding-top: 3rem;
+}
+
+#holding{
+    display: inline-block;
+    font-family: 'Clash';
+    font-size: 64px;
+    font-weight: 700;
+    color: #204AF8;
+    text-shadow:
+    4px 4px 0 #fff,
+    -4px 4px 0 #fff,
+    -4px -4px 0 #fff,
+    4px -4px 0 #fff;
+    padding-right: .25rem;
+    transform: rotate(-5deg);
+}
+
+#awesome{
+    font-family: 'Awesome';
+    font-size: 64px;
+    color: #FFFFFF63;
+}
+#strategy{
+    display: inline-block;
+    font-family: 'Clash';
+    font-size: 48px;
+    color: #204AF8;
+    font-weight: 700;
+    text-shadow:
+    4px 4px 0 #fff,
+    -4px 4px 0 #fff,
+    -4px -4px 0 #fff,
+    4px -4px 0 #fff;
+    padding-left: .25rem;
+    transform: rotate(2.63deg);
+}
+
+.centered-strategy{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.hero-action-cont{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+/* Transactions Animation CSS */
+.transaction-animation{
+    padding-top: 4.5rem;
+}

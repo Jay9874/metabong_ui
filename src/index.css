@@ -1,0 +1,75 @@
+/**************  Fonts *****************/
+
+/* NeueMontreal Normal*/
+@font-face {
+  font-family: 'Neue Montreal Regular';
+  src: url(/fonts/NeueMontreal-Regular.otf) format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+/* NeueMontreal Light*/
+@font-face {
+  font-family: 'Neue Montreal Light';
+  src: url(/fonts/NeueMontreal-Light.otf) format('opentype');
+  font-style: light;
+  font-weight: 200;
+}
+/* NeueMontreal Regular*/
+@font-face {
+  font-family: 'Neue Montreal Medium';
+  src: url(/fonts/NeueMontreal-Medium.otf) format('opentype');
+  font-style: normal;
+  font-weight: 300;
+}
+/* NeueMontreal Bold*/
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url(/fonts/NeueMontreal-Bold.otf) format('opentype');
+  font-style: bold;
+  font-weight: 600;
+}
+
+/** DxDynamix Bold */
+@font-face {
+  font-family: 'DxDynamix';
+  src: url(/fonts/DxDynamix-Bold.otf) format('opentype');
+  font-style: bold;
+  font-weight: 600;
+}
+/** DxDynamix Bold Slanted */
+@font-face {
+  font-family: 'DxDynamix Slanted';
+  src: url(/fonts/DxDynamix-BoldSlanted.otf) format('opentype');
+  font-style: bold;
+  font-weight: 600;
+}
+
+
+/******** Clash Font */
+@font-face {
+  font-family: 'Clash';
+  src: url(/fonts/clash.ttf) format('truetype');
+}
+
+/******* Awesome serif */
+@font-face {
+  font-family: 'Awesome';
+  src: url(/fonts/awesome.ttf) format('truetype');
+}
+
+:root {
+  font-family: 'Neue Montreal Regular', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5;
+  font-weight: 400; */
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000814;
+}
+

@@ -1,0 +1,54 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem;
+    gap: 4rem;
+    color: #ffffff80;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.copyright{
+    text-align: center;
+    /* padding: 2rem 0; */
+}
+
+.company-logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 0 0 1rem;
+}
+.company-logo img{
+    height: 40px;
+    width: 40px;
+}
+
+.company-description{
+    color: #FFFFFF80;
+    font-size: 1.125rem;
+}
+.company-logo .company-name{
+    font-family: 'Clash';
+    color: #fff;
+}
+
+.product{
+    font-family: "Clash";
+    color: #fff;
+}
+.guide{
+    padding-top: .25rem;
+}
+
+.tool-link{
+    font-size: 1.25rem;
+}
+.discord-channel{
+    display: flex;
+    align-items: center;
+}

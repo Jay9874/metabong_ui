@@ -1,0 +1,58 @@
+.navbar{
+    position: fixed;
+    top: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem 1rem;
+}
+
+.navbar-short{
+   padding: 1rem;
+   border-radius: 8px;
+}
+
+.navbar-main-container{
+    background-color: #204AF8E5;
+    padding: .5rem 1rem .5rem .25rem;
+    border-radius: 8px 5px 5px 8px;
+    border: 1px solid #fff;
+    border-width: 1px 1px 4px 1px;
+}
+
+/* brand CSS */
+.brand{
+    display: flex;
+    gap: .25rem;
+}
+.brand-title-heading{
+    font-family: 'DxDynamix', sans-serif;
+    padding-top: .25rem;
+    color: #FFFFFF85;
+}
+
+
+/* Navlink CSS */
+.navbar-links{
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 2rem;
+}
+
+.navlink{
+    display: flex;
+    font-weight: 100;
+    align-items: center;
+    gap: .25rem;
+}
+
+
+
+
